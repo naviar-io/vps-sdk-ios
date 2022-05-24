@@ -1,11 +1,11 @@
 Pod::Spec.new do |s|
   s.name             = 'VPSNMobile'
-  s.version          = '0.3.0'
+  s.version          = '0.3.1'
   s.summary          = 'VPSNMobile'
-  s.homepage         = 'https://github.com/sberdevices/vps-sdk-ios'
+  s.homepage         = 'https://github.com/naviar-io/vps-sdk-ios'
   s.license          = { :type => 'Sber Public License at-nc-sa v.2', :file => 'LICENSE' }
   s.author           = { "ARVRLab" => "arvrlab@sberbank.ru" }
-  s.source           = { :git => 'https://github.com/sberdevices/vps-sdk-ios.git', :tag => "#{s.version}" }
+  s.source           = { :git => 'https://github.com/naviar-io/vps-sdk-ios.git', :tag => "#{s.version}" }
   s.ios.deployment_target = '12.0'
   s.swift_version = '5.0'
   s.source_files = 'VPSNMobile/**/*.{swift}'
